@@ -25,6 +25,9 @@ DEBUG = False
 # code in core/platform.
 PLATFORM = 'gae'
 
+# YAML_UPLOAD
+ALLOW_YAML_FILE_UPLOAD = True
+
 # Whether we should serve the development or production experience.
 if PLATFORM == 'gae':
     DEV_MODE = (

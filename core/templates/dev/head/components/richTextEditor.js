@@ -234,7 +234,8 @@ oppia.directive('richTextEditor', [
                 strikeThrough: {visible: false},
                 subscript: {visible: false},
                 superscript: {visible: false},
-                unLink: {visible: false}
+                unLink: {visible: false},
+                html: {visible: true}
               },
               css: '/css/rte.css',
               debug: true,
